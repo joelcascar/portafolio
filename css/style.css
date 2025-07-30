@@ -70,10 +70,6 @@ main .tarjeta{
     margin: 0 auto;
 }
 
-.tarjeta h1{
-
-}
-
 .tarjeta .tarjeta--contenido{
     display: flex;
     justify-content: space-between;
