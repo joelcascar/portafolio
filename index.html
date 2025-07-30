@@ -9,14 +9,16 @@
 </head>
 <body>
     <!--Encabezado-->
-    <header>
-        <img src="/img/Logo1.png" alt="logo" width="10%">
-        <nav>
-            <a href="#">Sobre Mi</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Contacto</a>    
-        </nav>
-    </header>
+    <div class="bg">
+        <header>
+            <img src="/img/Logo1.png" alt="logo" width="10%">
+            <nav>
+                <a href="#sobre-mi">Sobre Mi</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#">Contacto</a>    
+            </nav>
+        </header>
+    </div>
     <!--Contenido principal-->
     <main>
         <section class="tarjeta">
@@ -26,32 +28,50 @@
                 <img class="tarjeta--imagen" src="img/portafolio1a.JPG" alt="foto de perfil">
             </div>
         </section>
-        <section class="proyectos">
+        <section id="proyectos" class="proyectos">
             <h2>Proyectos destacados</h2>
             <div class="proyecto--grid">
                 <div class="proyecto">
-                    <a href="#">
-                        <h3>Proyecto 1 Festival música</h3>
+                    <a href="https://festival-musica-act.netlify.app/">
+                        <h3>Proyecto 1 Festival de música</h3>
                         <img src="img/proyecto1.jpg" alt="festival música">
-                        <p>Descripción breve del proyecto 1.</p>
+                        <p>Un sitio web para ventas de boletos de un festival de música.</p>
                     </a>
                 </div>
                 <div class="proyecto">
-                    <a href="#">
-                        <h3>Proyecto 2 Store</h3>
-                        
-                        <p>Descripción breve del proyecto 2.</p>
+                    <a href="https://blogcafe-joel-castellanos.netlify.app/">
+                        <h3>Proyecto 2 BlogDeCafé</h3>
+                        <img src="img/proyecto2.jpg" alt="Blog de café">
+                        <p>Blog que habla sobre el café.</p>
                     </a>
-
                 </div>
-
             </div>
         </section>
+        <!-- Sección sobre mi -->
+        <section id="sobre-mi" class="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="img/sobre-mi.jpg" alt="foto sobre mi">
+            <p>Soy un desarrollador web con experiencia en HTML, CSS y JavaScript. Me apasiona crear sitios web que no solo sean funcionales, sino también visualmente atractivos.</p>
+            
+        </section>
+        <!-- Sección de tecnologías -->
+         <section>
+            <h2>Tecnologías que manejo</h2>
+            <ul class="tecnologias">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SASS</li>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Java</li>
+            </ul>
+         </section>
     </main>
     <!--Pie de página-->
     <footer>
         <p>&copy; 2025 Joel Castellanos. Todos los derechos reservados.</p>
-        <p>Contacto: <a href="#">linkedIn</a> | <a href="#">GitHub</a> | <a href="#">Correo</a></p>
+        <p>Contacto: <a href="#">linkedIn</a> | <a href="https://github.com/joelcascar">GitHub</a> | <a href="#">Correo</a></p>
     </footer>
 </body>
 </html>
