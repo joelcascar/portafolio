@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Joel Castellanos</title>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <div class="bg">
+        <header class="contenedor encabezado">
+            <img src="/img/Logo1.png" alt="logo" width="10%">
+            <nav>
+                <a href="index.html#sobre-mi">Sobre Mi</a>
+                <a href="index.html#proyectos">Proyectos</a>
+                <a href="contacto.html">Contacto</a>    
+            </nav>
+        </header>
+    </div>
+    <!--Contenido principal-->
+    <main class="principal contenedor">
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactame llenando todos los campos </legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Telefono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+                    <div class="alinear-derecha flex">
+                        <!-- input de tipo submit -->
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!--Pie de página-->
+    <footer>
+        <p>&copy; 2025 Joel Castellanos. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="#">linkedIn</a> | <a href="https://github.com/joelcascar">GitHub</a> | <a href="#">Correo</a></p>
+    </footer>
+</body>
+</html>
